@@ -1,6 +1,6 @@
 {
   "name": "svgo-bin",
-  "version": "2.8.0",
+  "version": "3.3.2",
   "description": "Wrapper under SVGO to run it without installed node.exe on computer",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,6 @@
   "homepage": "https://github.com/rodlie/svgo-bin#readme",
   "dependencies": {
     "pkg": "5.8.1",
-    "svgo": "2.8.0"
+    "svgo": "3.3.2"
   }
 }
