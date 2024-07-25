@@ -33,5 +33,13 @@ jobs:
 
       - name: build executables
         run: npx pkg node_modules/svgo
+
+      - name: artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: svgo-bin
+          path: |
+            svgo-win.exe
+            svgo-linux
         
         
