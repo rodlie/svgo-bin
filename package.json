@@ -1,39 +1,4 @@
 {
-  "name": "svgo-bin",
-  "version": "3.3.2",
-  "description": "Wrapper under SVGO to run it without installed node.exe on computer",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rodlie/svgo-bin.git"
-  },
-  "keywords": [
-    "SVGO",
-    "executable",
-    "SVG",
-    "node.exe",
-    "package",
-    "pkg",
-    "windows",
-    "linux",
-    "macos",
-    "svgo-win",
-    "svgo-linux",
-    "svgo-macos",
-    "svgo-executable",
-    "svgo-win.exe",
-    "svgop.exe alternative",
-    "svgop"
-  ],
-  "author": "Anton Tishchenko",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rodlie/svgo-bin/issues"
-  },
-  "homepage": "https://github.com/rodlie/svgo-bin#readme",
   "dependencies": {
     "pkg": "5.8.1",
     "svgo": "3.3.2"
