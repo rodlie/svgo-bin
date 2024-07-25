@@ -30,6 +30,6 @@ jobs:
         run: npm install
 
       - name: build executables
-        run: npx pkg node_modules/svgo --targets node20-linux-x64 node20-macos-x64 node20-win-x64
+        run: npx pkg node_modules/svgo --targets node20-linux-x64,node20-macos-x64,node20-win-x64
         
         
