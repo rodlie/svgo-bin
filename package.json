@@ -1,5 +1,5 @@
 {
-  "name": "svgo-executable",
+  "name": "svgo-bin",
   "version": "2.8.0",
   "description": "Wrapper under SVGO to run it without installed node.exe on computer",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Antonytm/svgo-executable.git"
+    "url": "git+https://github.com/rodlie/svgo-bin.git"
   },
   "keywords": [
     "SVGO",
@@ -31,11 +31,11 @@
   "author": "Anton Tishchenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Antonytm/svgo-executable/issues"
+    "url": "https://github.com/rodlie/svgo-bin/issues"
   },
-  "homepage": "https://github.com/Antonytm/svgo-executable#readme",
+  "homepage": "https://github.com/rodlie/svgo-bin#readme",
   "dependencies": {
-    "pkg": "5.5.2",
+    "pkg": "5.8.1",
     "svgo": "2.8.0"
   }
 }
